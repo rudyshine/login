@@ -25,7 +25,7 @@ class login(CrawlSpider) :
         self.allowed_domains = [m.groups()[0] if m else '']
         # print("aaaa ===========")
         # print(self.start_urls)
-        # print(self.allowed_domains)
+        print(self.allowed_domains)
 
 
     ###Rule对象定义了爬取网站的特定行为。其第一个参数Link Extractor  object描述了从每个爬取网页中提取链接的方式，callback参数用于处理LinkExtractor提取的链接  /html/body/div[1]/div/div[1]/div/ul/li[1]/a
