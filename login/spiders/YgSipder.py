@@ -24,7 +24,7 @@ class login(CrawlSpider) :
     print("aaaa ===========1")
     def __init__(self,start_urls, *args, **kwargs):
         super(login, self).__init__(*args, **kwargs)
-        self.start_urls = [start_urls]
+        self.start_urls = [start_urls]cd
         # self.allowed_domains = [start_urls.strip('http:\/\/www.')]
 
         print(self.start_urls)
